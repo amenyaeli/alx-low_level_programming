@@ -5,7 +5,7 @@
 *
 * main - print standard error
 * Return: 1 (Hurray)
-	*/
+*/
 int main(void)
 {
 	write(2,
