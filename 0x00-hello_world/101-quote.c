@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
-* main - print a line of the standard error
+* main - Entry data type
 *
 * Return: Always 1 (Success)
 */
