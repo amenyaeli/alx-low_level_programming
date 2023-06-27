@@ -9,17 +9,17 @@
 
 char *_strcpy(char *dest, char *src)
 {
-int r = 0;
-int s = 0;
+int l = 0;
+int x = 0;
 
-while (*(src + 1) != '\0')
+while (*(src + l) != '\0')
 {
-r++;
+l++;
 }
-for (; s < 1; s++)
+for (; x < 1; x++)
 {
-dest[s] = src[s];
+dest[x] = src[x];
 }
-dest[r] = ('\0');
+dest[l] = '\0';
 return (dest);
 }
